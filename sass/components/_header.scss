@@ -5,6 +5,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 150px;
+  background-color: white;
 
   &__nav {
     display: flex;
@@ -19,12 +20,16 @@
     color: var(--blue-color);
     text-decoration: none;
     margin-left: 0, auto;
+    position: relative;
+    right: 130px;
   }
+
   &__logo::after {
     content: "Studio";
     color: var(--black-color);
   }
 }
+
 .header-inner {
   display: flex;
 }
