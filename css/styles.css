@@ -404,14 +404,14 @@ header {
   border-radius: 4px;
 }
 
-.skills__subtitle {
+.cards-mid__subtitle {
   font-weight: 700;
   line-height: 1, 14;
   text-transform: uppercase;
   color: var(--black-color);
   align-self: center;
 }
-.skills__text {
+.cards-mid__text {
   line-height: 1, 71;
   height: 75px;
   width: 270px;
