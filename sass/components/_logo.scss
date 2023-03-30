@@ -1,0 +1,17 @@
+.footer1 {
+  &__logo {
+    font-family: var(--font-Releway);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    color: var(--blue-color);
+    text-decoration: none;
+    font-style: var(--font-normal);
+    display: flex;
+    padding-top: 60px;
+  }
+  &__logo::after {
+    content: "Studio";
+    color: var(--white-color);
+  }
+}
