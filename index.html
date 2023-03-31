@@ -132,7 +132,7 @@
         <section class="middle-section">
           <div class="container-inner ">
             <ul class="unstyled-list cards-mid">
-              <li>
+              <li class="cards-mid__list">
                 <a class="cards-mid__svg-background" href="#">
                   <svg height="70" width="65.31">
                     <use
@@ -142,12 +142,12 @@
                 </a>
                 <h3 class="cards-mid__subtitle">ATTENTION TO DETAILS</h3>
                 <p class="cards-mid__text">
-                  We go into all the details and processes <br />
-                  of your business to<br />
+                  We go into all the details and processes
+                  of your business to
                   develop a customized solution.
                 </p>
               </li>
-              <li>
+              <li class="cards-mid__list cards-mid--punctuality">
                 <a class="cards-mid__svg-background" href="#">
                   <svg height="70" width="66.90">
                     <use
@@ -155,14 +155,14 @@
                     ></use>
                   </svg>
                 </a>
-                <h3 class="cards-mid__subtitle">PUNCTUALITY</h3>
-                <p class="cards-mid__text">
-                  With us, you can feel safe and secure.<br />
-                  An important principle of the company:<br />
+                <h3 class="cards-mid__subtitle ">PUNCTUALITY</h3>
+                <p class="cards-mid__text ">
+                  With us, you can feel safe and secure.
+                  An important principle of the company:
                   respect your time and deadlines.
                 </p>
               </li>
-              <li>
+              <li class="cards-mid__list" >
                 <a class="cards-mid__svg-background" href="#">
                   <svg height="53,69" width="70">
                     <use
@@ -172,12 +172,12 @@
                 </a>
                 <h3 class="cards-mid__subtitle">PLANNING</h3>
                 <p class="cards-mid__text">
-                  You will be able to observe and <br />
-                  participate in every phase of solution <br />development and
+                  You will be able to observe and 
+                  participate in every phase of solution development and
                   implementation.
                 </p>
               </li>
-              <li>
+              <li class="cards-mid__list">
                 <a class="cards-mid__svg-background" href="#">
                   <svg height="60.66" width="54.83">
                     <use
@@ -187,18 +187,12 @@
                 </a>
                 <h3 class="cards-mid__subtitle">MODERN TECHNOLOGIES</h3>
                 <p class="cards-mid__text">
-                  We use innovative tools to solve<br />
-                  assigned tasks. It's time to simplify work<br />
+                  We use innovative tools to solve
+                  assigned tasks. It's time to simplify work
                   processes.
                 </p>
               </li>
             </ul>
-          </div>
-          
-            
-              </li>
-            </ul>
-          </div>
         </section>
         <!--Our Work Section-->
         <section class="ourwork">
@@ -238,11 +232,25 @@
             <h2 class="ourtime-section__title">Our Team</h2>
             <ul class="unstyled-list ourtime">
               <li class="ourtime__items">
-                <img
-                  width="270"
-                  src="./images/teme members (1).jpg"
-                  alt="Christopher Walker"
-                />
+             <picture>
+            <source 
+                  media="screen and (max-width:480px)"
+                  srcset="images\1-M.jpg 1x ,1-Mx2.jpg 2x"
+              />
+              <source 
+                  media="screen and (max-width:767px)"
+                  srcset="images\1-T.jpg 1x ,1-Tx2.jpg 2x"
+              />
+              <source 
+                  media="screen and (max-width:1200px)"
+                  srcset="images\1-D.jpg 1x ,1-Dx2.jpg 2x"
+              />
+              <img
+              width="270"
+              src="/images/1-M.jpg"
+              alt="Christopher Walker"
+            />
+             </picture>
                 <h3 class="ourtime__names name">Christopher Walker</h3>
                 <p class="ourtime__ocupation">Product Designer</p>
                 <div class="ourtime__svg">
@@ -288,11 +296,26 @@
               </li>
 
               <li class="ourtime__items">
-                <img
-                  width="270"
-                  src="./images/teme members (2).jpg"
-                  alt="Kylie Evans"
+              <picture>
+                <source 
+                media="screen and (max-width:480px)"
+                srcset="images\2-D.jpg 1x ,2-Dx2.jpg 2x"
                 />
+                <source 
+                media="screen and (max-width:767px)"
+                srcset="images\2-T.jpg 1x ,2-Tx2.jpg 2x"
+                />
+                <source 
+                media="screen and (max-width:1200px)"
+                srcset="images\2-D.jpg 1x ,2-Dx2.jpg 2x"
+                 />
+
+                <img
+                width="270"
+                src="./images/2-M.jpg"
+                alt="Kylie Evans"
+              />
+              </picture>
                 <h3 class="ourtime__names">Kylie Evans</h3>
                 <p class="ourtime__ocupation">Frontend Developer</p>
                 <div class="ourtime__svg">
@@ -337,11 +360,25 @@
                 </div>
               </li>
               <li class="ourtime__items">
+                <picture>
+                  <source 
+                  media="screen and (max-width:480px)"
+                  srcset="images\3-M.jpg 1x ,3-Mx2.jpg 2x"
+              />
+              <source 
+                  media="screen and (max-width:767px)"
+                  srcset="images\3-T.jpg 1x ,3-Tx2.jpg 2x"
+              />
+              <source 
+                  media="screen and (max-width:1200px)"
+                  srcset="images\3-D.jpg 1x ,3-Dx2.jpg 2x"
+              />
                 <img
                   width="270"
-                  src="./images/teme members (3).jpg"
+                  src="./images/3-M.jpg"
                   alt="Ryan Harris"
                 />
+                </picture>
                 <h3 class="ourtime__names name">Ryan Harris</h3>
                 <p class="ourtime__ocupation">Marketing</p>
                 <div class="ourtime__svg">
@@ -386,11 +423,26 @@
                 </div>
               </li>
               <li class="ourtime__items">
+                <picture>
+
+                  <source 
+                  media="screen and (max-width:480px)"
+                  srcset="images\4-M.jpg 1x ,4-Mx2.jpg 2x"
+                  />
+                 <source 
+                  media="screen and (max-width:767px)"
+                  srcset="images\4-T.jpg 1x ,4-Tx2.jpg 2x"
+                    />
+                <source 
+                  media="screen and (max-width:1200px)"
+                  srcset="images\4-D.jpg 1x ,4-Dx2.jpg 2x"
+                />
                 <img
                   width="270"
-                  src="./images/teme members (4).jpg"
+                  src="./images/4-M.jpg"
                   alt="Tyler Moore"
                 />
+                </picture>
                 <h3 class="ourtime__names name">Tyler Moore</h3>
                 <p class="ourtime__ocupation">UI Designer</p>
                 <div class="ourtime__svg">
@@ -490,6 +542,7 @@
           </div>
         </section>
       </main>
+      <!--Modal-header-->
       <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
           <svg height="18.66" width="18.66px"
